@@ -125,7 +125,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 // console.log(user);
 // const company = new Company();
 // console.log(company);
-new google.maps.Map(document.getElementById('map'), {
+var map = new google.maps.Map(document.getElementById('map'), {
   zoom: 1,
   center: {
     lat: 0,
